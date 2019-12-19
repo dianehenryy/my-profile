@@ -1,0 +1,80 @@
+body{
+	background: #E5ECE9;
+	color: (100, 100, 255); 
+	font-family:'Titillium Web',sans-serif;
+	font-size: 16px; 
+}	
+
+h1, h2 {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 600; 
+}
+
+h1{
+	color: #EA526F; 
+	font-size: 40px; 
+}
+
+h2{
+	color: #BF8B85;
+	font-size: 25px; 
+}
+
+.card-pink {background: whitesmoke; 
+	margin: 60px; 
+	padding: 5px 40px; 
+	border: 1px solid #EA526F; 
+	border-radius: 4px; box-shadow: 5px 5px 5px grey"
+}	
+
+.list-inline {
+  list-style: none; 
+  padding-left: 0px; 
+}
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px; 
+}
+
+#mypicture { border-radius: 50%; 
+	box-shadow: 5px 5px 5px black; 
+	width: 150px; 
+	height: 150px
+}
+
+#btn-pink { border-radius: 4px; 
+	padding: 8px; 
+	background: pink; 
+	text-decoration: none;
+	color: black; 
+	transition: 0.1s ease; 
+}
+
+#btn-pink a: hover{
+	background: black; 
+	color: #EA526F;
+	font-weight: bolder; 
+}
+
+#bigbox p {margin-bottom: 25px ; font-weight: lighter}
+
+#container {margin: 0px auto ; width: 900px }
+
+#bigbox { background: whitesmoke; 
+	margin: 60px; 
+	padding: 40px; 
+	border: 2px solid #EA526F; 
+	border-radius: 10px; 
+	box-shadow: 5px 5px 5px grey }
+
+
+@media (max-width: 750px) {
+	#container { 
+		width: 600px }
+}
+
+@media ( max-width: 500px ) {
+	#container { 
+		width: 400px}
+}
+
